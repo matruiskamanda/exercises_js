@@ -1,3 +1,3 @@
-const name = 'Amanda';
-
-console.log('hola', name, 'bienvenido a GitHab.');
+for( let i =1; i<= 10; i++){
+    console.log('index',i);
+}
