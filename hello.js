@@ -1,3 +1,4 @@
-for( let i =1; i<= 10; i++){
-    console.log('index',i);
+const x = 10
+for( let i =1; i<= x; i++){
+    console.log('index',i,'/',x);
 }
