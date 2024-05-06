@@ -1,2 +1,2 @@
-# exercises_js
+# Exercises JS
 JavaScript excercises
