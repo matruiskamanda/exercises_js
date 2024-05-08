@@ -11,15 +11,15 @@ for(let i = 0; i < listNumber.length; i++){
     let posPrimegroup = null;
     let flagOrdenados = true;
     while(listNumber[indicatorNumber] !== 0){
-        i++
+        i++;
         let j = 0;
         let contPrime = 0;
-        indicatorNumbergroup++
+        indicatorNumbergroup++;
         if(listNumber[indicatorNumber] % 2 !=0){
             sumOdd++;
         }
             while( j < listNumber[indicatorNumber]){
-                j++
+                j++;
                 contPrime+= listNumber[indicatorNumber] % j === 0 ? 1 : 0  
             }
 
@@ -37,7 +37,7 @@ for(let i = 0; i < listNumber.length; i++){
         indicatorNumber++;
     }
 
-    indicatorNumber++
+    indicatorNumber++;
     let porcentageOdd = (sumOdd * 100)/ indicatorNumbergroup;
     group++;
 
@@ -49,7 +49,7 @@ for(let i = 0; i < listNumber.length; i++){
     sortedGru += flagOrdenados? 1 :0
 
 
-    console.log(lastPrimeGroup === null ? 'no hay primos' : `el ultimo primo es ${lastPrimeGroup} en la posicion ${posPrimegroup}`)
+    console.log(lastPrimeGroup === null ? 'no hay primos' : `el ultimo primo es ${lastPrimeGroup} en la posicion ${posPrimegroup}`);
 
 }
 console.log('el grupo con mayor porcentage de impares es', indicatorGroup);

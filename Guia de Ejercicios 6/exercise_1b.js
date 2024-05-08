@@ -17,7 +17,7 @@ for(let i = 0; i< listNumber.length; i++){
         percentageOddGroup = percentageOdd > higheroddGroup ? group : percentageOddGroup;
         higheroddGroup = percentageOdd > higheroddGroup ? percentageOdd : higheroddGroup;
 
-        console.log(lastPrime === 0 ? 'no hay primos' : 'el ultimo primo', lastPrime, 'en la posicion', posPrimeGroup)
+        console.log(lastPrime === 0 ? 'no hay primos' : 'el ultimo primo', lastPrime, 'en la posicion', posPrimeGroup);
 
         sortedGrup += flagSorted ? 1 : 0
 
@@ -25,7 +25,7 @@ for(let i = 0; i< listNumber.length; i++){
         indexnumbergroup= 0;
         group++;
         lastPrime=0;
-        flagSorted = true
+        flagSorted = true;
         continue
     }
 
@@ -36,15 +36,15 @@ for(let i = 0; i< listNumber.length; i++){
         contPrime += listNumber[i]%j === 0 ? 1 : 0
     }
     lastPrime = contPrime === 2 ? listNumber[i]: lastPrime
-    posPrimeGroup = indexnumbergroup + 1
+    posPrimeGroup = indexnumbergroup + 1;
     
     if(listNumber[i] < listNumber[i+1]){
-             flagSorted = false;
-        }
+        flagSorted = false;
+    }
 
-    indexnumbergroup++
+    indexnumbergroup++;
     contOdd+= listNumber[i] % 2 !== 0 ? 1 : 0
    
 }
-console.log('grupos Ordenados', sortedGrup)
-console.log('grupo con mayorporcentaje de impar', percentageOddGroup, 'porcentaje de ese grupo',higheroddGroup)
+console.log('grupos Ordenados', sortedGrup);
+console.log('grupo con mayorporcentaje de impar', percentageOddGroup, 'porcentaje de ese grupo',higheroddGroup);
