@@ -1,14 +1,26 @@
-let objecto = {
-    
+const peso = [24,37,130,120,48,36,77,41,79,66,44,66,33,68,10,190,30,20];
+let camiones = {};
+let camion = 0;
+let mayor = 0;
+
+for(let i=0; i<peso.length;i++){
+    let pesoActual = 0;
+
+    while(peso[i]+pesoActual < 200){
+        pesoActual+= peso[i];
+        i++;
+    }
+    i--;
+    camion++;
+    camiones[`camion${camion}`] = pesoActual;   
 }
-objecto['zona1'] = {}
-objecto['zona1']['total_kvs'] = 888;
-objecto['zona1']['clientes'] = {}
-objecto['zona1']['clientes']['0001'] = [];
-objecto['zona1']['clientes']['0004'] =  0;
 
-//console.log(Object.keys(objecto.zona1.clientes).length);
-objecto.zona1.clientes['0001'].push(1)
-objecto.zona1.clientes['0001'].push(2)
-console.log(JSON.stringify(objecto, null, 4));
-
+for(let i = 1; i <= Object.keys(camiones).length; i++){
+    if(camiones[`camion${i}`] > mayor){
+        mayor = camiones[`camion${i}`];
+        camion =`camion${i}`;
+    }  
+}
+console.log(camion, mayor);
+console.log(camiones);
+console.log(Object.keys(camiones).length);
