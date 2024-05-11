@@ -21,6 +21,6 @@ for(let i = 1; i <= Object.keys(camiones).length; i++){
         camion =`camion${i}`;
     }  
 }
-console.log(camion, mayor);
+console.log('el camion con más peso es',camion,'con',mayor,'kg');
 console.log(camiones);
-console.log(Object.keys(camiones).length);
+console.log('loa cantidad totales de camiones son',Object.keys(camiones).length);
