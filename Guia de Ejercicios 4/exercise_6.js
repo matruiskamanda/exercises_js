@@ -1,5 +1,5 @@
 //un nunmero y decir si es primo o no es primo ( divisible por 1 y el mismo)
-const primo = [2];
+const primo = [33];
 let cont = 0;
 for(i=0; i<= primo; i++){
    if(primo%i === 0){
