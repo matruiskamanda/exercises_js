@@ -16,4 +16,4 @@ for(let i=0;i<numero.length;i++){
         j++;
     }
 }
-console.log(`los numeros mayores al promedio son ${mayoresAlPromedio}`)
+console.log(`los numeros mayores al promedio : ${promedio} son ${mayoresAlPromedio}`)

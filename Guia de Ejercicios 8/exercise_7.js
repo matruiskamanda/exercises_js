@@ -21,6 +21,9 @@ const articulos = {
     }    
 }
 
+
+
+
 let acumulador = 0;
 let mayorVenta = 0;
 let articulomayorVenta = 0;

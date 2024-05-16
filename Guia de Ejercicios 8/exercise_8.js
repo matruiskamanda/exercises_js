@@ -3,8 +3,8 @@ const posiciones=[1,2,3,4,5];
 let auxiliar = 0;
 let auxiliarPosicion = 0;
 
-for(i=0;i< numerosOriginales.length;i++){
-    for(j=i+1;j < numerosOriginales.length;j++){
+for(let i=0;i< numerosOriginales.length;i++){
+    for(let j=i+1;j < numerosOriginales.length;j++){
         if(numerosOriginales[i] < numerosOriginales[j]){
             auxiliar = numerosOriginales[j];
             numerosOriginales[j] = numerosOriginales[i];

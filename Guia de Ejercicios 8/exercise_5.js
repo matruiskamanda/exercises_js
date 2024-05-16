@@ -8,5 +8,5 @@ while(frase[i] !== '.'){
     }
     i++;
 }
-console.log(frase);
-console.log(fraseCambiada);
+console.log(frase.join(""));
+console.log(fraseCambiada.join(""));

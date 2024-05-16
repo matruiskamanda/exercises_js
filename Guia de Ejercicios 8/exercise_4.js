@@ -1,4 +1,4 @@
-const numero = [12,24,35,46,57,78];
+const numero = [12,24,35,4,57,78];
 let ordenado = true;
 
 for(i=0;i<numero.length;i++){
@@ -7,5 +7,5 @@ for(i=0;i<numero.length;i++){
     }
 }
 
-//console.log = ordenado ? ("estan ordenados") : ("no estan ordenados");
-ordenado ? console.log("ordenados") : console.log("desordenados");
+//ordenado ? console.log("ordenados") : console.log("desordenados");
+console.log(ordenado ? "ordenados" : "no ordenados");
