@@ -35,7 +35,7 @@ console.log(indexOf5);
 //me da el indice del ultimo caracter 'a' de mi string
 let lastIndexOf1 = prueba.lastIndexOf('a');
 console.log(lastIndexOf1);
-//busca en el string a partir del indice que le señalo la primera 'e' que encuentra *******
+//busca en el string a partir del indice que le señalo la primera 'e' que encuentra *******(del 21-------- a la primera 'e' que encuentre)
 let lastIndexOf2 = prueba.indexOf('e',21);
 console.log(lastIndexOf2);
 //busca la palabra en el string si no existe me devuelve -1
@@ -62,7 +62,7 @@ console.log(replace2);
 
 
 /* 
-    string.slice me devuelve un pedaso de mi estring basandose en los indices de inicio y final que yo le indique
+.slice me devuelve un pedaso de mi estring basandose en los indices de inicio y final que yo le indique
 */
 // le indico que del indice 3 al 10 me imprima lo que dice mi string
 let slice1 = prueba.slice(3,10);
@@ -141,5 +141,5 @@ console.log(toLowerCase);
 .endsWith regresa verdadero o falso lo usamos para buscar o confirmar con que palabra termina nuestro String
 */
 
-let endsWhith = prueba.endsWith('/');
-console.log(endsWhith);
+let endsWith = prueba.endsWith('/');
+console.log(endsWith);

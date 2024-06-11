@@ -89,3 +89,12 @@ for(const abuela of Object.keys(arbolGenealogico)){
         console.log('--> no tiene hijos')
     }  
 }
+
+
+
+const objeto = {
+    pera: 'pera',
+    manzana: 'manzana',
+}
+console.log(Object.keys(objeto));
+console.log(objeto[keys].includes(uva))
