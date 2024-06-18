@@ -28,4 +28,9 @@ function request(text, callback){
     callback(new Error('lalala'));
   }
 
-  
+  const texto = 'aaaa'
+  const callback = () => new Promise((resolve, reject) => {
+        resolve('resuelto');
+        reject('rechazado');
+  })
+
