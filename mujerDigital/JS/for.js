@@ -12,3 +12,7 @@ console.warn('For of')
 for(let mascota of arr){
     console.log(mascota);
 };
+
+
+const m = 'tu sabes?'
+console.log(m.endsWith('?'));

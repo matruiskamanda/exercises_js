@@ -1,36 +1,35 @@
-function request(text, callback){
-    if (typeof text !== 'string') {
-      throw new Error(
-        `Expected string text when calling request(text, callback), actual ${typeof text}.`,
-      );
-    }
+/* const lala = ['lily', 'lukas', 'coco', 'diego', 'manuel', 'patricia']
+const lili = ['coco', 'lukas']
+console.log(lala.indexOf(lili[0]))
 
-    if (typeof callback !== 'function') {
-      throw new Error(
-        `Expected callback function when calling request(text, callback), actual ${typeof callback}.`,
-      );
-    }
 
-    if (text !== 'aaa') {
-      callback(new Error('probando'));
-      return;
-    }
+const numeros = '1234'
+const numeros1 = 567
 
-    if (text) {
-      // If it's now available, yay, otherwise, nay
-      setTimeout(
-        () => callback( text ? undefined : new Error('error ramdom')),
-        1,
-      );
-      return;
-    }
+let prueba = numeros +numeros1;
+let prueba1 = (+prueba)
 
-    callback(new Error('lalala'));
-  }
+console.log(typeof(prueba1));
 
-  const texto = 'aaaa'
-  const callback = () => new Promise((resolve, reject) => {
-        resolve('resuelto');
-        reject('rechazado');
-  })
+const numeroo = 14.7789
+console.log(numeroo.toFixed(2));
 
+const pangram = 'tu tieNes Que estudiar';
+console.log(pangram.includes('e','N'))
+ */
+
+const l = '1 2 3 \n 4 5 \n 6 7'
+const t = l.trim()
+const mi = t.split('\n')
+const me = mi.map(e => {
+  m = e.split(',')
+  m.map(x => x.split(' '));
+});
+console.log (me)
+
+
+/* const m2 = mi.map(e => 
+  e.split(',')
+);
+console.log(m2)
+ */

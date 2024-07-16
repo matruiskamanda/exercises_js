@@ -65,4 +65,3 @@ const m = () =>  new Promise((resolve, reject) => {
 
 m().then(r => console.log('resultado', r)).catch(e => console.error('error',e));
 
-
