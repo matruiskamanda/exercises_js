@@ -15,7 +15,7 @@ console.log(numeros.find(element => element > 20));
 //.sort() ordenas los elementos del array.Los elementos se ordenarán en orden ascendente (de la A a la Z) por defecto. o bien por las condiciones
 // descendente ( mayor a menor)
 console.log(numeros.sort((a,b) => a > b ? -1 : 1));
-// ascendente 
+// ascendente (menor a mayor)
 console.log('sort',numeros.sort((a,b) => a < b ? -1 : 1));
 //.some regresa un true or false si uno de los elementos del array pasa un acondicion determinada 
 console.log(numeros.some(element => element === 23));
