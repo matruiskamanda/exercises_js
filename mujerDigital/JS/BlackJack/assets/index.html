@@ -22,7 +22,7 @@
     <div class="row container">
         <div class="col">
             <h1>Jugador <small>0</small></h1>
-            <div id="jugador-cartas">
+            <div id="jugador-cartas" class="divCartas">
                <!-- <img class="carta" src="./cartas/10S.png" alt="carta"> --> 
             </div>
         </div>
@@ -31,13 +31,17 @@
     <div class="row container mt-2">
         <div class="col">
             <h1>Computadora <small>0</small></h1>
-            <div id="computadora-cartas">
+            <div id="computadora-cartas" class="divCartas">
                 <!-- <img class="carta" src="./cartas/10S.png" alt="carta"> -->
             </div>
         </div>
     </div>
     
     
+    <script src="./js/underscore-m.js"></script>
     <script src="./js/juego.js"></script>
+   <script>
+    miModulo.nuevoJuego();
+   </script>
 </body>
 </html>
