@@ -1,4 +1,4 @@
-//4 numeros mostrar por pantalla cuales son mayores a 100
+//4 numeros mostrar imprimir cuales son mayores a 100
 
 const h = 89;
 const p = 832;

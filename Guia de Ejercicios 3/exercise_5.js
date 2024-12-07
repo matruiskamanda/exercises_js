@@ -3,5 +3,5 @@
 
 const nota1 = 4;
 const nota2 = 9;
-const nota = nota1> 8 && nota2 > 8 ? 'aprobada': nota1 > 6 && nota2 > 6 ? 'examen' : 'recuperar'
+const nota = nota1>= 8 && nota2 >= 8 ? 'aprobada': nota1 > 6 && nota2 > 6 ? 'examen' : 'recuperar'
 console.log(nota);

@@ -7,17 +7,17 @@ const decre ={
 }
 let boolean = 1
 let mayor = decre.g
-if(mayor> decre.h){
+if(mayor > decre.h){
    mayor = decre.h
    }else{
    boolean = 0;
 }
-if(mayor> decre.i){
+if(mayor > decre.i){
    mayor = decre.i
    }else{
    boolean = 0;
 }
-if(mayor>decre.j){
+if(mayor > decre.j){
    mayor = decre.j
    }else{
    boolean = 0;
